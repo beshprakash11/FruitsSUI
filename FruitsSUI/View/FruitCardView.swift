@@ -12,7 +12,14 @@ struct FruitCardView: View {
     //MARK: - BODY
     var body: some View {
         VStack(spacing: 20){
+            //FRUIT: IMAGE
+            
+            //FRUIT: TITLE
             Text("Blueberry")
+            
+            //FRUIT: HEADLINE
+            
+            //BUTTON: START
         }//: VStack
     }
 }
