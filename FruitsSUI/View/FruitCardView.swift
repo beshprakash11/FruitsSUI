@@ -11,7 +11,9 @@ struct FruitCardView: View {
     // MARK: - PROPERTIES
     //MARK: - BODY
     var body: some View {
-        Text("Blueberry")
+        VStack(spacing: 20){
+            Text("Blueberry")
+        }//: VStack
     }
 }
 
