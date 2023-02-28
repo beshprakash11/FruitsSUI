@@ -343,4 +343,30 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Grapefruit",
+      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      image: "grapefruit",
+      gradientColors: [Color("ColorGrapefruitLight"), Color("ColorGrapefruitDark")],
+      description: """
+        The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century.[2] When found, it was nicknamed the "forbidden fruit". Frequently, it is misidentified as the very similar parent species, pomelo.
+
+        The "grape" part of the name alludes to clusters of fruit on the tree that often appear similar to grape clusters. The interior flesh is segmented and varies in color from white to yellow to pink to red.
+
+        DESCRIPTION
+
+        The evergreen grapefruit trees usually grow to around 5–6 m (16–20 ft) tall, although they may reach 13–15 m (43–49 ft). The leaves are glossy, dark green, long (up to 15 cm (5.9 in)), and thin. It produces 5 cm (2 in) white four-petaled flowers. The fruit is yellow-orange skinned and generally, an oblate spheroid in shape; it ranges in diameter from 10 to 15 cm (3.9 to 5.9 in). The flesh is segmented and acidic, varying in color depending on the cultivars, which include white, pink, and red pulps of varying sweetness (generally, the redder varieties are the sweetest). The 1929 U.S. Ruby Red (of the 'Redblush' variety) has the first grapefruit patent.
+
+        CULINARY
+
+        Grapefruit varieties are differentiated by the flesh color of fruit they produce. Common varieties are red, white, and pink pulp colors. Flavors range from highly acidic and somewhat sour to sweet and tart, resulting from composition of sugars (mainly sucrose), organic acids (mainly citric acid), and monoterpenes and sesquiterpenes providing aromas.
+
+        Grapefruit mercaptan, a sulfur-containing terpene, is one of the aroma compounds influencing taste and odor of grapefruit, compared with other citrus fruits.
+
+        Raw grapefruit is 90% water, 8% carbohydrates, 1% protein, and negligible fat (table). In a 100-g reference amount, raw grapefruit provides 33 Calories and is a rich source of vitamin C (40% of the Daily Value), with no other micronutrients in significant content.
+
+        In Costa Rica, especially in Atenas, grapefruit are often cooked to remove their sourness, rendering them as sweets; they are also stuffed with dulce de leche, resulting in a dessert called toronja rellena (stuffed grapefruit). In Haiti, grapefruit is used primarily for its juice (jus de Chadèque), but also is used to make jam (confiture de Chadèque).
+        """,
+      nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
 ]
