@@ -26,7 +26,7 @@ struct FruitCardView: View {
                 
                 
                 //FRUIT: TITLE
-                Text("Blueberry")
+                Text(fruit.title)
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
