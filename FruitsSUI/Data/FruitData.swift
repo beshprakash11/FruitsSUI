@@ -369,4 +369,28 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
+    Fruit(
+      title: "Apple",
+      headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
+      image: "apple",
+      gradientColors: [Color("ColorAppleLight"), Color("ColorAppleDark")],
+      description: """
+        An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian tradition.
+
+        DESCRIPTION
+
+        The apple is a deciduous tree, generally standing 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild. When cultivated, the size, shape and branch density are determined by rootstock selection and trimming method. The leaves are alternately arranged dark green-colored simple ovals with serrated margins and slightly downy undersides.
+
+        Blossoms are produced in spring simultaneously with the budding of the leaves and are produced on spurs and some long shoots. The 3 to 4 cm (1 to 1 1⁄2 in) flowers are white with a pink tinge that gradually fades, five petaled, with an inflorescence consisting of a cyme with 4–6 flowers. The central flower of the inflorescence is called the "king bloom"; it opens first and can develop a larger fruit.
+
+        CULTIVATION
+
+        There are more than 7,500 known cultivars of apples.[44] Cultivars vary in their yield and the ultimate size of the tree, even when grown on the same rootstock.[45] Different cultivars are available for temperate and subtropical climates. The UK's National Fruit Collection, which is the responsibility of the Department of Environment, Food, and Rural Affairs, includes a collection of over 2,000 cultivars of apple tree in Kent.
+
+        The UK's national fruit collection database contains much information on the characteristics and origin of many apples, including alternative names for what is essentially the same "genetic" apple cultivar. Most of these cultivars are bred for eating fresh (dessert apples), though some are cultivated specifically for cooking (cooking apples) or producing cider. Cider apples are typically too tart and astringent to eat fresh, but they give the beverage a rich flavor that dessert apples cannot.
+
+        Commercially popular apple cultivars are soft but crisp. Other desirable qualities in modern commercial apple breeding are a colorful skin, absence of russeting, ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor. Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following. Extremely sweet apples with barely any acid flavor are popular in Asia, especially the Indian Subcontinent.
+        """,
+      nutrition: ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    )
 ]
