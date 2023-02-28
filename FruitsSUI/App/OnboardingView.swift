@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     //MARK: - PROPERTIES
+    var fruits: [Fruit] = fruitsData
     
     //MARK: - BODY
     
