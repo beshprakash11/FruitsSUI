@@ -16,6 +16,8 @@ struct OnboardingView: View {
         TabView{
             FruitCardView()
         }//:Tab
+        .tabViewStyle(PageTabViewStyle())
+        .padding(.vertical, 20)
     }
 }
 
