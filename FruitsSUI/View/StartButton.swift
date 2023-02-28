@@ -19,7 +19,10 @@ struct StartButton: View {
                 Text("Start")
                 
                 Image(systemName: "arrow.right.circle")
+                    .imageScale(.large)
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
         }
         .accentColor(.white)
         
