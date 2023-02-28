@@ -15,9 +15,9 @@ struct OnboardingView: View {
     
     var body: some View {
         TabView{
-            ForEach(0..<5){item in
-                //FruitCardView()
-                Text("Cards")
+            ForEach(fruits[0...5]){item in
+                FruitCardView(fruit: item)
+            
             }//:LOOP
         }//:Tab
         .tabViewStyle(PageTabViewStyle())
@@ -29,6 +29,6 @@ struct OnboardingView: View {
 //MARK:  PREVIEW
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView()
+        OnboardingView(fruits: fruitsData)
     }
 }
