@@ -35,7 +35,7 @@ struct FruitCardView: View {
                     .frame(maxWidth: 480)
                 
                 //BUTTON: START
-                
+                StartButton()
             }//: VStack
         }//:ZStack
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
