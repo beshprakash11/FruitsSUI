@@ -15,7 +15,7 @@ struct OnboardingView: View {
     
     var body: some View {
         TabView{
-            ForEach(fruits[0...fruits.count]){item in
+            ForEach(fruits[0..<fruits.count]){item in
                 FruitCardView(fruit: item)
             
             }//:LOOP
