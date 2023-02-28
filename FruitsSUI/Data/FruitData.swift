@@ -168,4 +168,30 @@ let fruitsData: [Fruit] = [
       """,
       nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
     ),
+    Fruit(
+      title: "Pomegranate",
+      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      image: "pomegranate",
+      gradientColors: [Color("ColorPomegranateLight"), Color("ColorPomegranateDark")],
+      description: """
+        The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.
+
+        The pomegranate originated in the region extending from Iran to northern India, and has been cultivated since ancient times throughout the Mediterranean region. It was introduced into Spanish America in the late 16th century and into California by Spanish settlers in 1769.
+
+        The fruit is typically in season in the Northern Hemisphere from September to February, and in the Southern Hemisphere from March to May. As intact sarcotestas or juice, pomegranates are used in baking, cooking, juice blends, meal garnishes, smoothies, and alcoholic beverages, such as cocktails and wine.
+
+        DESCRIPTION
+
+        Red-purple in color, the pomegranate fruit husk has two parts: an outer, hard pericarp, and an inner, spongy mesocarp (white "albedo"), which comprises the fruit inner wall where seeds attach. Membranes of the mesocarp are organized as nonsymmetrical chambers that contain seeds inside sarcotestas, which are embedded without attachment to the mesocarp. Containing juice, the sarcotesta is formed as a thin membrane derived from the epidermal cells of the seeds. The number of seeds in a pomegranate can vary from 200 to about 1,400.
+
+        Botanically, the edible fruit is a berry with seeds and pulp produced from the ovary of a single flower. The fruit is intermediate in size between a lemon and a grapefruit, 5–12 cm (2–5 in) in diameter with a rounded shape and thick, reddish husk.
+
+        CULTIVATION
+
+        Pomegranate granatum is grown for its fruit crop, and as ornamental trees and shrubs in parks and gardens. Mature specimens can develop sculptural twisted-bark multiple trunks and a distinctive overall form. Pomegranates are drought-tolerant, and can be grown in dry areas with either a Mediterranean winter rainfall climate or in summer rainfall climates. In wetter areas, they can be prone to root decay from fungal diseases. They can be tolerant of moderate frost, down to about −12 °C (10 °F).
+
+        Insect pests of the pomegranate can include the pomegranate butterfly Virachola isocrates and the leaf-footed bug Leptoglossus zonatus, and fruit flies and ants are attracted to unharvested ripe fruit. Pomegranate grows easily from seed, but is commonly propagated from 25 to 50 cm (10 to 20 in) hardwood cuttings to avoid the genetic variation of seedlings. Air layering is also an option for propagation, but grafting fails.
+        """,
+      nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
 ]
