@@ -254,4 +254,36 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Mango",
+      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      image: "mango",
+      gradientColors: [Color("ColorMangoLight"), Color("ColorMangoDark")],
+      description: """
+        A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae. Mangoes are native to South Asia, from where the "common mango" or "Indian mango", Mangifera indica, has been distributed worldwide to become one of the most widely cultivated fruits in the tropics. Other Mangifera species (e.g. horse mango, Mangifera foetida) are grown on a more localized basis.
+
+        Worldwide, there are several hundred cultivars of mango. Depending on the cultivar, mango fruit varies in size, shape, sweetness, skin color, and flesh color which may be pale yellow, gold, or orange. Mango is the national fruit of India and Pakistan, and the national tree of Bangladesh. It is the unofficial national fruit of the Philippines.
+
+        DESCRIPTION
+
+        Mango trees grow to 35–40 m (115–131 ft) tall, with a crown radius of 10 m (33 ft). The trees are long-lived, as some specimens still fruit after 300 years.[9] In deep soil, the taproot descends to a depth of 6 m (20 ft), with profuse, wide-spreading feeder roots and anchor roots penetrating deeply into the soil.[1] The leaves are evergreen, alternate, simple, 15–35 cm (5.9–13.8 in) long, and 6–16 cm (2.4–6.3 in) broad; when the leaves are young they are orange-pink, rapidly changing to a dark, glossy red, then dark green as they mature. The flowers are produced in terminal panicles 10–40 cm (3.9–15.7 in) long; each flower is small and white with five petals 5–10 mm (0.20–0.39 in) long, with a mild, sweet fragrance. Over 500 varieties of mangoes are known,[1] many of which ripen in summer, while some give a double crop. The fruit takes four to five months from flowering to ripen.
+
+        CULTIVATION
+
+        Mangoes have been cultivated in South Asia for thousands of years and reached Southeast Asia between the fifth and fourth centuries BCE. By the 10th century CE, cultivation had begun in East Africa.[12] The 14th-century Moroccan traveler Ibn Battuta reported it at Mogadishu. Cultivation came later to Brazil, Bermuda, the West Indies, and Mexico, where an appropriate climate allows its growth.
+
+        The mango is now cultivated in most frost-free tropical and warmer subtropical climates; almost half of the world's mangoes are cultivated in India alone, with the second-largest source being China. Mangoes are also grown in Andalusia, Spain (mainly in Málaga province), as its coastal subtropical climate is one of the few places in mainland Europe that permits the growth of tropical plants and fruit trees. The Canary Islands are another notable Spanish producer of the fruit. Other cultivators include North America (in South Florida and California's Coachella Valley), South and Central America, the Caribbean, Hawai'i, south, west, and central Africa, Australia, China, South Korea, Pakistan, Bangladesh, and Southeast Asia. Though India is the largest producer of mangoes, it accounts for less than 1% of the international mango trade; India consumes most of its own production.
+
+        CULINARY
+
+        There are many hundreds of named mango cultivars. In mango orchards, several cultivars are often grown in order to improve pollination. Many desired cultivars are monoembryonic and must be propagated by grafting or they do not breed true. A common monoembryonic cultivar is 'Alphonso', an important export product, considered as "the king of mangoes".
+
+        Cultivars that excel in one climate may fail elsewhere. For example, Indian cultivars such as 'Julie', a prolific cultivar in Jamaica, require annual fungicide treatments to escape the lethal fungal disease anthracnose in Florida. Asian mangoes are resistant to anthracnose.
+
+        The current world market is dominated by the cultivar 'Tommy Atkins', a seedling of 'Haden' that first fruited in 1940 in southern Florida and was initially rejected commercially by Florida researchers.[22] Growers and importers worldwide have embraced the cultivar for its excellent productivity and disease resistance, shelf life, transportability, size, and appealing color.[23] Although the Tommy Atkins cultivar is commercially successful, other cultivars may be preferred by consumers for eating pleasure, such as Alphonso.
+
+        Generally, ripe mangoes have an orange-yellow or reddish peel and are juicy for eating, while exported fruit are often picked while underripe with green peels. Although producing ethylene while ripening, unripened exported mangoes do not have the same juiciness or flavor as fresh fruit.
+        """,
+      nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
 ]
