@@ -194,4 +194,40 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Pear",
+      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      image: "pear",
+      gradientColors: [Color("ColorPearLight"), Color("ColorPearDark")],
+      description: """
+        The pear (/ˈpɛər/) tree and shrub are a species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees.
+
+        The tree is medium-sized and native to coastal as well as mildly temperate regions of Europe, north Africa and Asia. Pear wood is one of the preferred materials in the manufacture of high-quality woodwind instruments and furniture.
+
+        About 3000 known varieties of pears are grown worldwide. The fruit is consumed fresh, canned, as juice, and dried.
+
+        DESCRIPTION
+
+        The pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia. It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.
+
+        The leaves are alternately arranged, simple, 2–12 centimetres (1–4 1⁄2 in) long, glossy green on some species, densely silvery-hairy in some others; leaf shape varies from broad oval to narrow lanceolate. Most pears are deciduous, but one or two species in southeast Asia are evergreen.
+        
+        Most are cold-hardy, withstanding temperatures as low as −25 to −40 °C (−13 to −40 °F) in winter, except for the evergreen species, which only tolerate temperatures down to about −15 °C (5 °F).
+
+        CULTIVATION
+
+        According to Pear Bureau Northwest, about 3000 known varieties of pears are grown worldwide.[9] The pear is normally propagated by grafting a selected variety onto a rootstock, which may be of a pear variety or quince. Quince rootstocks produce smaller trees, which is often desirable in commercial orchards or domestic gardens.
+
+        For new varieties the flowers can be cross-bred to preserve or combine desirable traits. The fruit of the pear is produced on spurs, which appear on shoots more than one year old.
+
+        Three species account for the vast majority of edible fruit production, the European pear Pyrus communis subsp. communis cultivated mainly in Europe and North America, the Chinese white pear (bai li) Pyrus ×bretschneideri, and the Nashi pear Pyrus pyrifolia (also known as Asian pear or apple pear), both grown mainly in eastern Asia. There are thousands of cultivars of these three species.
+
+        A species grown in western China, P. sinkiangensis, and P. pashia, grown in southern China and south Asia, are also produced to a lesser degree.
+
+        Other species are used as rootstocks for European and Asian pears and as ornamental trees. Pear wood is close-grained and at least in the past was used as a specialized timber for fine furniture and making the blocks for woodcuts. The Manchurian or Ussurian Pear, Pyrus ussuriensis (which produces unpalatable fruit) has been crossed with Pyrus communis to breed hardier pear cultivars.
+
+        The Bradford pear (Pyrus calleryana 'Bradford') in particular has become widespread in North America, and is used only as an ornamental tree, as well as a blight-resistant rootstock for Pyrus communis fruit orchards. The Willow-leaved pear (Pyrus salicifolia) is grown for its attractive, slender, densely silvery-hairy leaves.
+        """,
+      nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
 ]
