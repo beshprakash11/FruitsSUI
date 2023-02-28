@@ -138,4 +138,34 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Lime",
+      headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
+      image: "lime",
+      gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
+      description: """
+      A lime (from French lime, from Arabic līma, from Persian līmū, "lemon")[1] is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.
+
+      There are several species of citrus trees whose fruits are called limes, including the Key lime (Citrus aurantiifolia), Persian lime, kaffir lime, and desert lime. Limes are a rich source of vitamin C, are sour, and are often used to accent the flavours of foods and beverages. They are grown year-round.[3] Plants with fruit called "limes" have diverse genetic origins; limes do not form a monophyletic group.
+
+      CULTIVATION
+
+      Limes have higher contents of sugars and acids than lemons do.[2] Lime juice may be squeezed from fresh limes, or purchased in bottles in both unsweetened and sweetened varieties. Lime juice is used to make limeade, and as an ingredient (typically as sour mix) in many cocktails.
+
+      Lime pickles are an integral part of Indian cuisine. South Indian cuisine is heavily based on lime; having either lemon pickle or lime pickle is considered an essential of Onam Sadhya.
+
+      In cooking, lime is valued both for the acidity of its juice and the floral aroma of its zest. It is a common ingredient in authentic Mexican, Vietnamese and Thai dishes. Lime soup is a traditional dish from the Mexican state of Yucatan. It is also used for its pickling properties in ceviche. Some guacamole recipes call for lime juice.
+
+      The use of dried limes (called black lime or loomi) as a flavouring is typical of Persian cuisine and Iraqi cuisine, as well as in Persian Gulf-style baharat (a spice mixture that is also called kabsa or kebsa).
+
+      Lime is an ingredient of many cuisines from India, and many varieties of pickles are made, e.g. sweetened lime pickle, salted pickle, and lime chutney.
+
+      Key lime gives the character flavoring to the American dessert known as Key lime pie. In Australia, desert lime is used for making marmalade.
+
+      Lime is an ingredient in several highball cocktails, often based on gin, such as gin and tonic, the gimlet and the Rickey. Freshly squeezed lime juice is also considered a key ingredient in margaritas, although sometimes lemon juice is substituted. It is also intimately associated with many rum cocktails such as the Daiquiri, and tropical drinks - especially within the Tiki culture.
+
+      Lime extracts and lime essential oils are frequently used in perfumes, cleaning products, and aromatherapy.
+      """,
+      nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
+    ),
 ]
