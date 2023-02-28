@@ -64,4 +64,46 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Lemon",
+      headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
+      image: "lemon",
+      gradientColors: [Color("ColorLemonLight"), Color("ColorLemonDark")],
+      description: """
+        The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.
+
+        The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. The pulp and rind are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, with a pH of around 2.2, giving it a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie.
+
+        NUTRITION
+
+        Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential nutrients are low in content.
+
+        Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[14] Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit juice, and about five times the amount of citric acid found in orange juice.
+
+        CULINARY
+        
+        Lemon juice, rind, and peel are used in a wide variety of foods and drinks. The whole lemon is used to make marmalade, lemon curd and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes.
+
+        JUICE
+
+        Lemon juice is used to make lemonade, soft drinks, and cocktails. It is used in marinades for fish, where its acid neutralizes amines in fish by converting them into nonvolatile ammonium salts. In meat, the acid partially hydrolyzes tough collagen fibers, tenderizing it.[18] In the United Kingdom, lemon juice is frequently added to pancakes, especially on Shrove Tuesday.
+
+        Lemon juice is also used as a short-term preservative on certain foods that tend to oxidize and turn brown after being sliced (enzymatic browning), such as apples, bananas, and avocados, where its acid denatures the enzymes.
+
+        PEEL
+
+        In Morocco, lemons are preserved in jars or barrels of salt. The salt penetrates the peel and rind, softening them, and curing them so that they last almost indefinitely.[19] The preserved lemon is used in a wide variety of dishes. Preserved lemons can also be found in Sicilian, Italian, Greek, and French dishes.
+
+        The peel can be used in the manufacture of pectin, a polysaccharide used as a gelling agent and stabilizer in food and other products.[20]
+
+        OIL
+
+        Lemon oil is extracted from oil-containing cells in the skin. A machine breaks up the cells, and uses a water spray to flush off the oil. The oil/water mixture is then filtered and separated by centrifugation.[21]
+
+        LEAVES
+
+        The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods.
+        """,
+      nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
 ]
