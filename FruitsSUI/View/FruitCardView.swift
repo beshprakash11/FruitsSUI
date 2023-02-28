@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FruitCardView: View {
     // MARK: - PROPERTIES
+    @State private var isAnimating: Bool = false
+    
     //MARK: - BODY
     var body: some View {
         ZStack{
@@ -38,6 +40,11 @@ struct FruitCardView: View {
                 StartButton()
             }//: VStack
         }//:ZStack
+        .onAppear{
+            withAnimation(.easeOut(duration: 0.5)){
+                isAnimating = true
+            }
+        }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(LinearGradient(gradient: Gradient(colors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")]), startPoint: .top, endPoint: .bottom))
         .cornerRadius(20)
