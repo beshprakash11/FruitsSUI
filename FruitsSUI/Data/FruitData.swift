@@ -230,4 +230,28 @@ let fruitsData: [Fruit] = [
         """,
       nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
+    Fruit(
+      title: "Gooseberry",
+      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
+      image: "gooseberry",
+      gradientColors: [Color("ColorGooseberryLight"), Color("ColorGooseberryDark")],
+      description: """
+        The gooseberry (/ˈɡuːsbɛri/ or /ˈɡuːzbɛri/ (American and northern British) or /ˈɡʊzbəri/ (southern British)), with scientific names Ribes uva-crispa (and syn. Ribes grossularia), is a species of Ribes (which also includes the currants).
+
+        It is native to Europe, the Caucasus and northern Africa. The species is also sparingly naturalized in scattered locations in North America. Gooseberry bushes produce an edible fruit and are grown on both a commercial and domestic basis. Its native distribution is unclear, since it may have escaped from cultivation and become naturalized. For example, in Britain, some sources consider it to be a native,[4] others to be an introduction.
+
+        Although usually placed as a subgenus within Ribes, a few taxonomists treat Grossularia as a separate genus, although hybrids between gooseberry and blackcurrant (e.g., the jostaberry) are possible. The subgenus Grossularia differs somewhat from currants, chiefly in their spiny stems, and in that their flowers grow one to three together on short stems, not in racemes. It is one of several similar species in the subgenus Grossularia; for the other related species (e.g., North American gooseberry Ribes hirtellum), see the genus page Ribes.
+
+        CULTIVATION
+
+        One method of propagating gooseberries is by cuttings rather than raising from seed; cuttings planted in the autumn will take root quickly and can begin to bear fruit within a few years. Those growing from seeds will rapidly produce healthy heavily yielding bushes. Pruning should be carried out to allow light in and give the new growth for next year's branches an opportunity to grow. Fruit is produced on lateral spurs and on the previous year's shoots.[13] The main aim is to let the light in and a subsidiary purpose is to allow picking without excessive scratching from the spines.
+
+        Heavy nitrogen composting must be avoided as too much nitrogen will produce extensive growth and weaken the bush. This will make the bush susceptible to mildew. The fruit should best be picked off when large to reach maximum sweetness. Supermarkets tend to have theirs picked early and before they are ripe and sweet to give a long shelf life. Heavily laden branches should be cut off complete with berries, this really benefits future crops as it lets the light reach the new growth.
+
+        CULINARY
+
+        Gooseberries are edible and can be eaten as-is, or used as an ingredient in desserts, such as pies, fools and crumbles. Early pickings are generally sour and more appropriate for culinary use. They are also used to flavour beverages such as sodas, flavoured waters, or milk, and can be made into fruit wines and teas. Gooseberries can be preserved in the form of jams, dried fruit, or as the primary or a secondary ingredient in pickling, or stored in sugar syrup.
+        """,
+      nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
 ]
