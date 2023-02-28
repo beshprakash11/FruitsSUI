@@ -14,9 +14,15 @@ struct StartButton: View {
     var body: some View {
         Button(action: {
             print("Exit the onboarding")
-        }, label: {
-            Text("Start")
-        })
+        }){
+            HStack(spacing: 8){
+                Text("Start")
+                
+                Image(systemName: "arrow.right.circle")
+            }
+        }
+        .accentColor(.white)
+        
     }
 }
 
