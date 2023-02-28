@@ -11,12 +11,13 @@ struct FruitCardView: View {
     // MARK: - PROPERTIES
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Blueberry")
     }
 }
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitCardView()
+            .previewLayout(.fixed(width: 320, height: 640))
     }
 }
