@@ -48,7 +48,8 @@ struct FruitDetailView: View {
                     .frame(minWidth: 300, alignment: .center)
                     
                 }//:vs
-            }
+                .navigationBarTitle(fruit.title, displayMode: .inline)
+            }//:SCRV
         }//:Navview
         .navigationViewStyle(.stack)
     }
