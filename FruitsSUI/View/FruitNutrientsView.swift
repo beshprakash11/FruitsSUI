@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FruitNutrientsView: View {
     //MARK: - PROPERTIES
+    var fruit: Fruit
     
     //MARK: - BODY
     var body: some View {
@@ -18,7 +19,7 @@ struct FruitNutrientsView: View {
 
 struct FruitNutrientsView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitNutrientsView()
+        FruitNutrientsView(fruit: fruitsData[0])
             .preferredColorScheme(.dark)
             .previewLayout(.fixed(width: 375, height: 480))
             .padding()
