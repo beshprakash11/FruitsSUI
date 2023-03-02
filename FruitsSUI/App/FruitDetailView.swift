@@ -49,6 +49,7 @@ struct FruitDetailView: View {
                     
                 }//:vs
                 .navigationBarTitle(fruit.title, displayMode: .inline)
+                .navigationBarHidden(true)
             }//:SCRV
         }//:Navview
         .navigationViewStyle(.stack)
