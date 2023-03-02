@@ -15,8 +15,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List{
-                ForEach(fruits) { fruit in
-                    /*@START_MENU_TOKEN@*/Text(fruit.title)/*@END_MENU_TOKEN@*/
+                ForEach(fruits) { item in
+                    FruitRowView
                 }
             }
         }
