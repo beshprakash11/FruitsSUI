@@ -51,6 +51,7 @@ struct FruitDetailView: View {
                 .navigationBarTitle(fruit.title, displayMode: .inline)
                 .navigationBarHidden(true)
             }//:SCRV
+            .edgesIgnoringSafeArea(.top)
         }//:Navview
         .navigationViewStyle(.stack)
     }
