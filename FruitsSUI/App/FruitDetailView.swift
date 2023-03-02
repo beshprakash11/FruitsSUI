@@ -19,8 +19,11 @@ struct FruitDetailView: View {
                     //HEADER
                     
                     VStack{
-                        //Title
+                        //TITLE
                         Text(fruit.title)
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
+                            .foregroundColor(fruit.gradientColors[1])
                         
                         //HEADLINE
                         
