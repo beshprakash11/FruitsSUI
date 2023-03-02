@@ -14,7 +14,12 @@ struct FruitNutrientsView: View {
     let nutrients: [String] = ["Energy", "Sugar", "Fat", "Protein", "Vitamins", "Finerals"]
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GroupBox(){
+            DisclosureGroup("Nutritional Value per 100g"){
+                
+                
+            }//:DG
+        }//: box
     }
 }
 
