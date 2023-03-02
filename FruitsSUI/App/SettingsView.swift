@@ -22,7 +22,10 @@ struct SettingsView: View {
                     GroupBox(
                         label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     ){
-                        Text("Hello")
+                        Divider().padding(.vertical, 4)
+                        HStack{
+                            Text("Hello")
+                        }
                     }
                     
                     //MARK: - SECTION 2
