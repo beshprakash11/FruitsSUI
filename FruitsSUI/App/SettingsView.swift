@@ -39,7 +39,12 @@ struct SettingsView: View {
                     GroupBox(
                         label: SettingsLabelView(labelText: "Application", labelImage: "app.iphone")
                     ){
-                        
+                        Divider().padding(.vertical, 4)
+                        HStack{
+                            Text("Developer").foregroundColor(.gray)
+                            Spacer()
+                            Text("Besh P.Yogi")
+                        }
                     }
                 }//:VS
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
