@@ -11,6 +11,8 @@ struct SettingsView: View {
     //MARK: - PROPERTIES
     
     
+    @Environment(\.presentationMode) var presentationMode
+    
     //MARK: - BODY
     var body: some View {
         NavigationView {
@@ -18,7 +20,14 @@ struct SettingsView: View {
                 VStack(spacing: 20){
                     Text("")
                 }//:VS
-                navigationBarTitle(Text("Settings"), displayMode: .large)
+                .navigationBarTitle(Text("Settings"), displayMode: .large)
+                .navigationBarItems(
+                    trailing: Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }, label: {
+                        Image(systemName: "xmark")
+                    })
+                )
             }//:SCROLLV
         }//:NavigationView
         .navigationViewStyle(.stack)
