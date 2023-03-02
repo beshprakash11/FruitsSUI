@@ -15,9 +15,9 @@ struct SettingsRowView: View {
     //MARK: - BODY
     var body: some View {
         HStack{
-            Text("Developer").foregroundColor(.gray)
+            Text(name).foregroundColor(.gray)
             Spacer()
-            Text("Besh P.Yogi")
+            Text(content)
         }
     }
 }
