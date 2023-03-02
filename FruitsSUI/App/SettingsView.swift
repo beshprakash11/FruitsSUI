@@ -28,7 +28,8 @@ struct SettingsView: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 80, height: 80)
-                            Text("Hello")
+                            Text("Most fruits are naturally low in fat, sodium, and calories. ")
+                                .font(.footnote)
                         }
                     }
                     
