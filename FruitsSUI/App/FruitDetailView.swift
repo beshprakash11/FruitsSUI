@@ -18,13 +18,12 @@ struct FruitDetailView: View {
                 VStack(alignment: .center, spacing: 20){
                     //HEADER
                     FruitHeaderView(fruit: fruit)
-                    VStack{
+                    VStack(spacing: 20){
                         //TITLE
                         Text(fruit.title)
                             .font(.largeTitle)
                             .fontWeight(.heavy)
                             .foregroundColor(fruit.gradientColors[1])
-                        
                         //HEADLINE
                         Text(fruit.headline)
                             .font(.headline)
