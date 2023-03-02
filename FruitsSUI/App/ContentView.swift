@@ -16,10 +16,12 @@ struct ContentView: View {
         NavigationView {
             List{
                 ForEach(fruits) { item in
-                    FruitRowView
+                    FruitRowView(fruit: item)
+                        .padding(.vertical)
                 }
             }
         }
+        .navigationViewStyle(.stack)
     }
 }
 
