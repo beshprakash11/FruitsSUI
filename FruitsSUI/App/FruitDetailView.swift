@@ -26,7 +26,9 @@ struct FruitDetailView: View {
                             .foregroundColor(fruit.gradientColors[1])
                         
                         //HEADLINE
-                        
+                        Text(fruit.headline)
+                            .font(.headline)
+                            .multilineTextAlignment(.leading)
                         //NUTRIENTS
                         
                         //SUBHEADLINE
