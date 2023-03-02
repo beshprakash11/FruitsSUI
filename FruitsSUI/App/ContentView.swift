@@ -31,6 +31,9 @@ struct ContentView: View {
                 }, label: {
                     Image(systemName: "slider.horizontal.3")
                 })
+                .sheet(isPresented: $isShowingSettings, content: {
+                    SettingsView()
+                })
             )
         }
         .navigationViewStyle(.stack)
