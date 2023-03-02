@@ -43,6 +43,7 @@ struct FruitDetailView: View {
                         
                         
                         //LINK
+                        SourceLinkView()
                     }//:innervs
                     .padding(.horizontal, 20)
                     .frame(minWidth: 300, alignment: .center)
