@@ -19,6 +19,7 @@
 		9698508F29B0C339008A18A3 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698508E29B0C339008A18A3 /* FruitRowView.swift */; };
 		9698509129B0C880008A18A3 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509029B0C880008A18A3 /* FruitDetailView.swift */; };
 		9698509329B0CCDE008A18A3 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509229B0CCDE008A18A3 /* FruitHeaderView.swift */; };
+		9698509529B0D116008A18A3 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509429B0D116008A18A3 /* SourceLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9698508E29B0C339008A18A3 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		9698509029B0C880008A18A3 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		9698509229B0CCDE008A18A3 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		9698509429B0D116008A18A3 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9632E36229AE214E007E415F /* StartButton.swift */,
 				9698508E29B0C339008A18A3 /* FruitRowView.swift */,
 				9698509229B0CCDE008A18A3 /* FruitHeaderView.swift */,
+				9698509429B0D116008A18A3 /* SourceLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9632E36B29AE2912007E415F /* FruitData.swift in Sources */,
+				9698509529B0D116008A18A3 /* SourceLinkView.swift in Sources */,
 				9632E36129AE1C50007E415F /* FruitCardView.swift in Sources */,
 				96946DC729A8EDB500C09FEB /* ContentView.swift in Sources */,
 				9698508F29B0C339008A18A3 /* FruitRowView.swift in Sources */,
