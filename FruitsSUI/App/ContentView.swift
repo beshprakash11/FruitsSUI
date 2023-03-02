@@ -13,7 +13,13 @@ struct ContentView: View {
     
     //MARK: - BODY
     var body: some View {
-        RowView(fruit: fruitsData[0])
+        NavigationView {
+            List{
+                ForEach(fruits) { fruit in
+                    /*@START_MENU_TOKEN@*/Text(fruit.title)/*@END_MENU_TOKEN@*/
+                }
+            }
+        }
     }
 }
 
