@@ -23,7 +23,11 @@ struct SettingsView: View {
                         label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     ){
                         Divider().padding(.vertical, 4)
-                        HStack{
+                        HStack(alignment: .center, spacing: 10){
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
                             Text("Hello")
                         }
                     }
