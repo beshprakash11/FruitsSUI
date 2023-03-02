@@ -9,6 +9,7 @@ import SwiftUI
 
 struct StartButton: View {
     //MARK: - PROPERTIES
+    @AppStorage("isOnboarding") var isOnboarding: Bool?
     
     //MARK: - BODY
     var body: some View {
