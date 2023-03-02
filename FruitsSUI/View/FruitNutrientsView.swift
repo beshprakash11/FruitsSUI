@@ -17,7 +17,11 @@ struct FruitNutrientsView: View {
         GroupBox(){
             DisclosureGroup("Nutritional Value per 100g"){
                 ForEach(0..<nutrients.count, id: \.self){item in
-                    Text(nutrients[item])
+                    HStack{
+                        Text(nutrients[item])
+                        Spacer()
+                        Text(fruit.nutrition[item])
+                    }
                 }
                 
             }//:DG
