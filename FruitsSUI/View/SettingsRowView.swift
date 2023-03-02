@@ -10,14 +10,17 @@ import SwiftUI
 struct SettingsRowView: View {
     //MARK: - PROPERTIES
     var name: String
-    var content: String
+    var content: String? = nil
+    
+    var linkLabel: String? = nil
+    var linkDestination: String? = nil
     
     //MARK: - BODY
     var body: some View {
         HStack{
             Text(name).foregroundColor(.gray)
             Spacer()
-            Text(content)
+            Text(content?)
         }
     }
 }
