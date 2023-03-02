@@ -13,7 +13,15 @@ struct SettingsView: View {
     
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false){
+                VStack(spacing: 20){
+                    Text("")
+                }//:VS
+                navigationBarTitle(Text("Settings"), displayMode: .large)
+            }//:SCROLLV
+        }//:NavigationView
+        .navigationViewStyle(.stack)
     }
 }
 
