@@ -12,7 +12,11 @@ struct SettingsRowView: View {
     
     //MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Text("Developer").foregroundColor(.gray)
+            Spacer()
+            Text("Besh P.Yogi")
+        }
     }
 }
 
