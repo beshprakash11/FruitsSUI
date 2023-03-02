@@ -19,6 +19,16 @@ struct SettingsView: View {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20){
                     //MARK: - SECTION 1
+                    GroupBox(
+                        label:
+                            HStack{
+                                Text("Fructus".uppercased()).fontWeight(.bold)
+                                Spacer()
+                                Image(systemName: "info.circle")
+                            }
+                    ){
+                        Text("Hello")
+                    }
                     
                     //MARK: - SECTION 2
                     
