@@ -16,10 +16,14 @@ struct FruitDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: .center, spacing: 20){
+                    VStack{
+                        Text(fruit.title)
+                    }//:innervs
                     
                 }//:vs
             }
         }//:Navview
+        .navigationViewStyle(.stack)
     }
 }
 
