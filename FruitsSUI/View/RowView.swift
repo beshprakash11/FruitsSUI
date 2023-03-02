@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RowView: View {
     //MARK: - PROPERTEIS
-    
+    var fruit: Fruit
     
     //MARK: - BODY
     
@@ -21,7 +21,7 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView()
+        RowView(fruit: fruitsData[0])
             .previewLayout(.sizeThatFits)
             .padding()
     }
