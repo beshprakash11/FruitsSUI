@@ -19,6 +19,8 @@ struct FruitDetailView: View {
                     VStack{
                         Text(fruit.title)
                     }//:innervs
+                    .padding(.horizontal, 20)
+                    .frame(minWidth: 300, alignment: .center)
                     
                 }//:vs
             }
