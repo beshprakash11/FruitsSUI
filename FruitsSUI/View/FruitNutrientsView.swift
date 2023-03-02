@@ -18,7 +18,12 @@ struct FruitNutrientsView: View {
             DisclosureGroup("Nutritional Value per 100g"){
                 ForEach(0..<nutrients.count, id: \.self){item in
                     HStack{
-                        Text(nutrients[item])
+                        Group{
+                            Image(systemName: "info.circle")
+                            Text(nutrients[item])
+                        }
+                        .foregroundColor(fruit.gradientColors[1])
+                        .font(Font.system(.body).bold())
                         Spacer()
                         Text(fruit.nutrition[item])
                     }
