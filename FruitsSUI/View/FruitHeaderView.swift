@@ -14,7 +14,11 @@ struct FruitHeaderView: View {
     //MARK: - BODY
     
     var body: some View {
-        Text(fruit.description)
+        ZStack{
+            LinearGradient(gradient: Gradient(colors: fruit.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing)
+            
+        }//:ZStack
+        .frame(height: 440)
     }
 }
 
