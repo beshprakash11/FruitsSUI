@@ -16,8 +16,21 @@ struct FruitDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(alignment: .center, spacing: 20){
+                    //HEADER
+                    
                     VStack{
+                        //Title
                         Text(fruit.title)
+                        
+                        //HEADLINE
+                        
+                        //NUTRIENTS
+                        
+                        //SUBHEADLINE
+                        
+                        //DESCRIPTION
+                        
+                        //LINK
                     }//:innervs
                     .padding(.horizontal, 20)
                     .frame(minWidth: 300, alignment: .center)
