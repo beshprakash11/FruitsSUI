@@ -18,6 +18,11 @@ struct SettingsView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false){
                 VStack(spacing: 20){
+                    //MARK: - SECTION 1
+                    
+                    //MARK: - SECTION 2
+                    
+                    //MARK: - SECTION 3
                     Text("")
                 }//:VS
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
