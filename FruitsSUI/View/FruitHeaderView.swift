@@ -10,6 +10,8 @@ import SwiftUI
 struct FruitHeaderView: View {
     //MARK: - PROPERTIES
     var fruit: Fruit
+    @State private var isAnimatingImage: Bool = false
+    
         
     //MARK: - BODY
     
@@ -23,6 +25,11 @@ struct FruitHeaderView: View {
                 .padding(.vertical, 20)
         }//:ZStack
         .frame(height: 440)
+        .onAppear(){
+            withAnimation(.easeOut(duration: 0.5)){
+                isAnimatingImage = true
+            }
+        }
     }
 }
 
