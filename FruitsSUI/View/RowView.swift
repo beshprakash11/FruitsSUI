@@ -34,7 +34,7 @@ struct RowView: View {
                     .font(.caption)
                     .foregroundColor(Color.secondary)
                 
-            }
+            }//:VStack
         }//: Hstack
     }
 }

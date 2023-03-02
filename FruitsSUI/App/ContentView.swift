@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    //MARK: - PROPERTIES
+    var fruits: [Fruit] = fruitsData
+    
+    //MARK: - BODY
     var body: some View {
         RowView(fruit: fruitsData[0])
     }
