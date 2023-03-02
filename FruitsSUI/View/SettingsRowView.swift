@@ -20,7 +20,11 @@ struct SettingsRowView: View {
         HStack{
             Text(name).foregroundColor(.gray)
             Spacer()
-            Text(content?)
+            if (content != nil){
+                Text(content!)
+            }else{
+                EmptyView()
+            }
         }
     }
 }
