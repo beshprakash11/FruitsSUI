@@ -20,5 +20,6 @@ struct FruitHeaderView: View {
 struct FruitHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         FruitHeaderView()
+            .previewLayout(.fixed(width: 375, height: 440))
     }
 }
