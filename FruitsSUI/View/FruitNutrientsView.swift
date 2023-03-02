@@ -19,5 +19,8 @@ struct FruitNutrientsView: View {
 struct FruitNutrientsView_Previews: PreviewProvider {
     static var previews: some View {
         FruitNutrientsView()
+            .preferredColorScheme(.dark)
+            .previewLayout(.fixed(width: 375, height: 480))
+            .padding()
     }
 }
