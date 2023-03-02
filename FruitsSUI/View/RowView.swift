@@ -12,6 +12,8 @@ struct RowView: View {
     
     
     //MARK: - BODY
+    
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -20,5 +22,7 @@ struct RowView: View {
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
         RowView()
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }
