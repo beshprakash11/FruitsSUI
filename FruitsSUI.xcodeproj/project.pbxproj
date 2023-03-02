@@ -17,6 +17,7 @@
 		96946DC929A8EDB800C09FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96946DC829A8EDB800C09FEB /* Assets.xcassets */; };
 		96946DCD29A8EDB800C09FEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96946DCC29A8EDB800C09FEB /* Preview Assets.xcassets */; };
 		9698508F29B0C339008A18A3 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698508E29B0C339008A18A3 /* FruitRowView.swift */; };
+		9698509129B0C880008A18A3 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509029B0C880008A18A3 /* FruitDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		96946DCA29A8EDB800C09FEB /* FruitsSUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FruitsSUI.entitlements; sourceTree = "<group>"; };
 		96946DCC29A8EDB800C09FEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9698508E29B0C339008A18A3 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		9698509029B0C880008A18A3 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				96946DC629A8EDB500C09FEB /* ContentView.swift */,
 				96946DC429A8EDB500C09FEB /* FruitsSUIApp.swift */,
 				9632E36429AE25E5007E415F /* OnboardingView.swift */,
+				9698509029B0C880008A18A3 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				9632E36129AE1C50007E415F /* FruitCardView.swift in Sources */,
 				96946DC729A8EDB500C09FEB /* ContentView.swift in Sources */,
 				9698508F29B0C339008A18A3 /* FruitRowView.swift in Sources */,
+				9698509129B0C880008A18A3 /* FruitDetailView.swift in Sources */,
 				9632E36329AE214E007E415F /* StartButton.swift in Sources */,
 				9632E36529AE25E5007E415F /* OnboardingView.swift in Sources */,
 				9632E36829AE27DF007E415F /* FruitModel.swift in Sources */,
