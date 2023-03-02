@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SettingsRowView: View {
     //MARK: - PROPERTIES
+    var name: String
+    var content: String
     
     //MARK: - BODY
     var body: some View {
@@ -22,7 +24,7 @@ struct SettingsRowView: View {
 
 struct SettingsRowView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsRowView()
+        SettingsRowView(name: "Besh P.Yogi", content: "Developer")
             .previewLayout(.fixed(width: 375, height: 60))
             .padding()
     }
