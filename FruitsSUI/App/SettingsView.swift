@@ -36,7 +36,11 @@ struct SettingsView: View {
                     //MARK: - SECTION 2
                     
                     //MARK: - SECTION 3
-                    Text("")
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Application", labelImage: "app.iphone")
+                    ){
+                        
+                    }
                 }//:VS
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(
