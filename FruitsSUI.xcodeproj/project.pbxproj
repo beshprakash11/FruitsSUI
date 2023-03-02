@@ -21,6 +21,7 @@
 		9698509329B0CCDE008A18A3 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509229B0CCDE008A18A3 /* FruitHeaderView.swift */; };
 		9698509529B0D116008A18A3 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509429B0D116008A18A3 /* SourceLinkView.swift */; };
 		9698509729B0D321008A18A3 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509629B0D321008A18A3 /* FruitNutrientsView.swift */; };
+		9698509929B0DA54008A18A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698509829B0DA54008A18A3 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9698509229B0CCDE008A18A3 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		9698509429B0D116008A18A3 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		9698509629B0D321008A18A3 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		9698509829B0DA54008A18A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				96946DC429A8EDB500C09FEB /* FruitsSUIApp.swift */,
 				9632E36429AE25E5007E415F /* OnboardingView.swift */,
 				9698509029B0C880008A18A3 /* FruitDetailView.swift */,
+				9698509829B0DA54008A18A3 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				9632E36529AE25E5007E415F /* OnboardingView.swift in Sources */,
 				9632E36829AE27DF007E415F /* FruitModel.swift in Sources */,
 				96946DC529A8EDB500C09FEB /* FruitsSUIApp.swift in Sources */,
+				9698509929B0DA54008A18A3 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
