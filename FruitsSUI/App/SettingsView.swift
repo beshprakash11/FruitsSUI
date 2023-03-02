@@ -20,12 +20,7 @@ struct SettingsView: View {
                 VStack(spacing: 20){
                     //MARK: - SECTION 1
                     GroupBox(
-                        label:
-                            HStack{
-                                Text("Fructus".uppercased()).fontWeight(.bold)
-                                Spacer()
-                                Image(systemName: "info.circle")
-                            }
+                        label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     ){
                         Text("Hello")
                     }
