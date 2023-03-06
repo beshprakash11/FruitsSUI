@@ -41,9 +41,7 @@ struct SettingsView: View {
                     ){
                         Divider().padding(.vertical, 4)
                         HStack{
-                            Text("Developer").foregroundColor(.gray)
-                            Spacer()
-                            Text("Besh P.Yogi")
+                            SettingsRowView(name: "Developer", content: "Besh P.Yogi", linkLabel: "https://www.github.com/beshprakash11"))
                         }
                     }
                 }//:VS
