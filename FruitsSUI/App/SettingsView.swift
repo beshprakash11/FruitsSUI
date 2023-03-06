@@ -44,7 +44,7 @@ struct SettingsView: View {
                         HStack{
                             SettingsRowView(name: "Developer", content: "Besh P.Yogi")
                             SettingsRowView(name: "Designer", content: "Robert Petras")
-                            
+                            SettingsRowView(name: "Compatibility", content: "ios-16")
                         }
                     }
                 }//:VS
