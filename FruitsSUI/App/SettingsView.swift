@@ -48,6 +48,11 @@ struct SettingsView: View {
                         Toggle(isOn: $isOnboarding) {
                             Text("Restart".uppercased())
                         }
+                        .padding()
+                        .background(
+                            Color(UIColor.tertiarySystemBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                        )
                     }
                     
                     //MARK: - SECTION 3
