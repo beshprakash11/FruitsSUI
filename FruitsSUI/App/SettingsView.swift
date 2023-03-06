@@ -12,6 +12,7 @@ struct SettingsView: View {
     
     
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
     //MARK: - BODY
     var body: some View {
