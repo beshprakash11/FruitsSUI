@@ -45,7 +45,9 @@ struct SettingsView: View {
                             SettingsRowView(name: "Developer", content: "Besh P.Yogi")
                             SettingsRowView(name: "Designer", content: "Robert Petras")
                             SettingsRowView(name: "Compatibility", content: "ios-16")
-                            //SettingsRowView(name: "Github", linkLabel: "Apple developer", linkDestination: "github.com/beshprakash11")
+                            SettingsRowView(name: "Github", linkLabel: "Apple developer", linkDestination: "github.com/beshprakash11")
+                            SettingsRowView(name: "SwiftUI", content: "2.0")
+                            SettingsRowView(name: "Version", content: "1.1.0")
                         }
                     }
                 }//:VS
