@@ -46,7 +46,11 @@ struct SettingsView: View {
                         
                         //MARK: - TOOGLE BTN
                         Toggle(isOn: $isOnboarding) {
-                            Text("Restart".uppercased())
+                            if isOnboarding{
+                                Text("Restart".uppercased())
+                            }else{
+                                EmptyView()
+                            }
                         }
                         .padding()
                         .background(
