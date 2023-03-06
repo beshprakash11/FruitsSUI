@@ -45,6 +45,7 @@ struct SettingsView: View {
                             SettingsRowView(name: "Developer", content: "Besh P.Yogi")
                             SettingsRowView(name: "Designer", content: "Robert Petras")
                             SettingsRowView(name: "Compatibility", content: "ios-16")
+                            SettingsRowView(name: "Github", linklabel: "Apple developer", linkDestination: "http://www.github.com/beshprakash11")
                         }
                     }
                 }//:VS
