@@ -33,6 +33,8 @@ struct SettingsRowView: View {
     }
 }
 
+
+//MARK: - PREVIEW
 struct SettingsRowView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsRowView(name: "Besh P.Yogi", content: "Developer")
