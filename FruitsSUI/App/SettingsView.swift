@@ -41,7 +41,7 @@ struct SettingsView: View {
                         
                     ){
                         Divider().padding(.vertical, 4)
-                        HStack{
+                        VStack{
                             SettingsRowView(name: "Developer", content: "Besh P.Yogi")
                             SettingsRowView(name: "Designer", content: "Robert Petras")
                             SettingsRowView(name: "Compatibility", content: "ios-16")
