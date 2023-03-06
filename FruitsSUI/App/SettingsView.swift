@@ -43,6 +43,8 @@ struct SettingsView: View {
                             .layoutPriority(1)
                             .font(.footnote)
                             .multilineTextAlignment(.leading)
+                        
+                        //MARK: - TOOGLE BTN
                         Toggle(isOn: $isOnboarding) {
                             Text("Restart".uppercased())
                         }
