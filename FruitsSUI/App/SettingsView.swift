@@ -38,10 +38,13 @@ struct SettingsView: View {
                     //MARK: - SECTION 3
                     GroupBox(
                         label: SettingsLabelView(labelText: "Application", labelImage: "app.iphone")
+                        
                     ){
                         Divider().padding(.vertical, 4)
                         HStack{
-                            SettingsRowView(name: "Developer", content: "Besh P.Yogi", linkLabel: "https://www.github.com/beshprakash11"))
+                            SettingsRowView(name: "Developer", content: "Besh P.Yogi")
+                            SettingsRowView(name: "Designer", content: "Robert Petras")
+                            
                         }
                     }
                 }//:VS
