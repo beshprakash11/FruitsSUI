@@ -40,5 +40,10 @@ struct SettingsRowView_Previews: PreviewProvider {
         SettingsRowView(name: "Besh P.Yogi", content: "Developer")
             .previewLayout(.fixed(width: 375, height: 60))
             .padding()
+        SettingsRowView(name: "Besh P.Yogi", linkLabel: "Developer", linkDestination: "https://www.github.com/beshprakash11")
+            .preferredColorScheme(.dark)
+            .previewLayout(.fixed(width: 375, height: 60))
+            .padding()
+
     }
 }
