@@ -48,8 +48,12 @@ struct SettingsView: View {
                         Toggle(isOn: $isOnboarding) {
                             if isOnboarding{
                                 Text("Restart".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.green)
                             }else{
-                                EmptyView()
+                                Text("Restart".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.secondary)
                             }
                         }
                         .padding()
